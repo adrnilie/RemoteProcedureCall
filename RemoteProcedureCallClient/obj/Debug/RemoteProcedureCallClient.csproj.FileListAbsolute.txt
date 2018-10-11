@@ -1,0 +1,7 @@
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\bin\Debug\RemoteProcedureCallClient.exe.config
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\bin\Debug\RemoteProcedureCallClient.exe
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\bin\Debug\RemoteProcedureCallClient.pdb
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\obj\Debug\RemoteProcedureCallClient.csprojAssemblyReference.cache
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\obj\Debug\RemoteProcedureCallClient.csproj.CoreCompileInputs.cache
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\obj\Debug\RemoteProcedureCallClient.exe
+F:\Repositories\RemoteProcedureCall\RemoteProcedureCallClient\obj\Debug\RemoteProcedureCallClient.pdb
