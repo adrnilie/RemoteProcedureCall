@@ -14,7 +14,7 @@ namespace RemoteProcedureCall
         {
             try
             {
-                var ipAddress = IPAddress.Parse("192.168.100.8");
+                var ipAddress = IPAddress.Parse("127.0.0.1");
                 var myList = new TcpListener(ipAddress, 4444);
                 myList.Start();
 

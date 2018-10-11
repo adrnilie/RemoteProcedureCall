@@ -17,14 +17,16 @@ namespace RemoteProcedureCallClient
                 var Tcpclient = new TcpClient();
 
                 Console.WriteLine("Connecting...");
-                Tcpclient.Connect("192.168.100.8", 4444);
+                Console.WriteLine("Enter ip: ");
+                var ip = Console.ReadLine().ToString();
+                Tcpclient.Connect(ip, 4444);
                 Console.WriteLine("Connected");
                 Console.WriteLine("Ente the String you want to send ");
 
                 var str = Console.ReadLine();
                 var stm = Tcpclient.GetStream();
                 var ascnd = new ASCIIEncoding();
-                var ba = ascnd.GetBytes(str);
+                var ba = ascnd.GetBytes(str ?? throw new InvalidOperationException());
 
                 Console.WriteLine("Sending..");
                 stm.Write(ba, 0, ba.Length);
